@@ -1,12 +1,19 @@
 {
     "name": "phalcana/installer",
     "description": "Installer for Phalcana using composer",
+    "keywords": ["Phalcana", "Phalcon", "Kohana"],
+    "license": "BSD-3-Clause",
+    "homepage": "http://phalcana.com",
     "authors": [
         {
             "name": "Neil Brayfield",
             "email": "neil@brayfield.co.uk"
         }
     ],
+    "support": {
+        "email": "support@phalcana.com",
+        "irc": "irc://irc.freenode.org/composer"
+    },
     "type": "composer-plugin",
 
     "autoload": {
