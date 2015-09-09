@@ -1,0 +1,21 @@
+{
+    "name": "phalcana/installer",
+    "description": "Installer for Phalcana using composer",
+    "authors": [
+        {
+            "name": "Neil Brayfield",
+            "email": "neil@brayfield.co.uk"
+        }
+    ],
+    "type": "composer-plugin",
+
+    "autoload": {
+        "psr-0": {"Phalcana\\Composer": "src/"}
+    },
+    "extra": {
+        "class": "Phalcana\\Composer\\Plugin"
+    },
+    "require": {
+        "composer-plugin-api": "1.0.0"
+    }
+}
